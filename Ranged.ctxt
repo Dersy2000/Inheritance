@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Ranged
+comment0.text=\r\n\ Abstract\ class\ Ranged\ -\ write\ a\ description\ of\ the\ class\ here\r\n\r\n\ @author\ (your\ name\ here)\r\n\ @version\ (version\ number\ or\ date\ here)\r\n
+comment1.params=
+comment1.target=boolean\ parry()
+comment2.params=dmg\ name
+comment2.target=Ranged(int,\ java.lang.String)
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Melee
+comment0.text=\r\n\ Abstract\ class\ Melee\ -\ write\ a\ description\ of\ the\ class\ here\r\n\r\n\ @author\ (your\ name\ here)\r\n\ @version\ (version\ number\ or\ date\ here)\r\n
+comment1.params=oil
+comment1.target=void\ addOil(Oil)
+comment2.params=
+comment2.target=Oil\ getOil()
+comment3.params=dmg\ name
+comment3.target=Melee(int,\ java.lang.String)
+numComments=4

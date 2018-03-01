@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=DragonScale
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ DragonScaleArmor\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=AC\ weight\ Name
+comment1.target=DragonScale(int,\ int,\ java.lang.String)
+numComments=2

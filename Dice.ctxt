@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Dice
+comment1.params=
+comment1.target=int\ d4()
+comment2.params=
+comment2.target=int\ d6()
+comment3.params=
+comment3.target=int\ d8()
+comment4.params=
+comment4.target=int\ d10()
+comment5.params=
+comment5.target=int\ d12()
+comment6.params=
+comment6.target=int\ d20()
+numComments=7
