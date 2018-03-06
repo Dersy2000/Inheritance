@@ -7,5 +7,9 @@
  */
 public abstract class Wraith extends Enemy
 {
-    
+    int health;
+   int AC;
+   public Wraith(int health, int AC){
+       super(health, AC);
+   }
 }

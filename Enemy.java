@@ -7,5 +7,9 @@
  */
 public abstract class Enemy extends Character
 {
-   
+   int health;
+   int AC;
+   public Enemy(int health, int AC){
+       super(health, AC);
+   }
 }

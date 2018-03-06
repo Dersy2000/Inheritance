@@ -7,9 +7,9 @@
  */
 public class GreatSword extends Melee implements TwoHanded
 {
-    int dmg = 12;
+    int dmg = Dice.d12();
     String name = "Great Sword";
-    public GreatSword(int dmg, String name){
-        super(dmg, name);
+    public GreatSword(){
+        super(Dice.d12(), "Great Sword");
     }
 }

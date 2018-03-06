@@ -9,7 +9,7 @@ public class longSword extends Melee implements OneHanded
 {
     int dmg = Dice.d8();
     String name = "Long Sword";
-    public longSword(int dmg, String name){
-        super(dmg, name);
+    public longSword(){
+        super(Dice.d8(), "LongSword");
     }
 }

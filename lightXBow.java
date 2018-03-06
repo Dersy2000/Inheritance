@@ -10,7 +10,7 @@ public class lightXBow extends xBow
     //will have a reload method
     int dmg = Dice.d8();
     String name = "Light Crossbow";
-    public lightXBow(int dmg, String name){
-        super(dmg, name);
+    public lightXBow(){
+        super(Dice.d8(), "Light Crossbow");
     }
 }

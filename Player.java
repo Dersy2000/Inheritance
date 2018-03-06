@@ -9,8 +9,9 @@ public class Player extends Character
 {
     Melee weapon;
     Ranged rweapon;
-    public Player(){
-        weapon = new SteelSword(Dice.d10(), "Steel Sword");
+    public Player(int AC, int health){
+        super(20, 100);
+        weapon = new SteelSword();
     }
     public int attack (int dmg){
         if (weapon.getOil() instanceof BeastOil){

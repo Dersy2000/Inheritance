@@ -9,7 +9,7 @@ public class GreatAxe extends Melee implements TwoHanded
 {
    int dmg = 12;
    String name = "Great Axe";
-   public GreatAxe(int dmg, String name){
-       super(dmg, name);
+   public GreatAxe(){
+       super(Dice.d12(), "Great Axe");
    }
 }

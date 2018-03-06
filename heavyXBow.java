@@ -9,7 +9,7 @@ public class heavyXBow extends xBow
 {
    int dmg = Dice.d10();
    String name = "Heavy Crossbow";
-   public heavyXBow(int dmg, String name){
-       super(dmg, name);
+   public heavyXBow(){
+       super(Dice.d10(), "Heavy Crossbow");
    }
 }

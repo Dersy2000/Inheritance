@@ -1,4 +1,6 @@
 #BlueJ class context
 comment0.target=Wraith
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Wraith\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-numComments=1
+comment1.params=health\ AC
+comment1.target=Wraith(int,\ int)
+numComments=2

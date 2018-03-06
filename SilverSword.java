@@ -8,10 +8,9 @@
 public class SilverSword extends Melee implements OneHanded, TwoHanded
 {
     //Oil oil;
-    //WILL DEAL MORE DAMAGE TO MONSTERS
     int dmg = Dice.d10();
     String name = "Silver Sword";
-    public SilverSword(int dmg, String name){
-        super(dmg, name);
+    public SilverSword(){
+        super(Dice.d10(), "Silver Sword");
     }
 }

@@ -10,7 +10,7 @@ public class HalfPlate extends mediumArmour
     int AC = 16;
     int weight = 15;
     String Name = "Half Plate";
-      public HalfPlate(int AC, int weight, String Name){
-       super(AC, weight, Name);
+      public HalfPlate(){
+       super(16, 15, "Half Plate");
     }
 }

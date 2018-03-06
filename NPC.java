@@ -7,5 +7,7 @@
  */
 public abstract class NPC extends Character
 {
-   
+   public NPC(int AC, int health){
+       super(AC, health);
+   }
 }

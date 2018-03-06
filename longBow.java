@@ -9,7 +9,7 @@ public class longBow extends Bow
 {
     int dmg = Dice.d8();
     String name = "Long Bow";
-    public longBow(int dmg, String name){
-        super(dmg, name);
+    public longBow(){
+        super(Dice.d8(), "Long Bow");
     }
 }

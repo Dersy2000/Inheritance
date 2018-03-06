@@ -1,4 +1,6 @@
 #BlueJ class context
 comment0.target=TownMaster
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ TownMaster\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-numComments=1
+comment1.params=AC\ health
+comment1.target=TownMaster(int,\ int)
+numComments=2

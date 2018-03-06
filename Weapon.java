@@ -23,5 +23,9 @@ public abstract class Weapon extends Item implements WeaponInterface
     public int getDamage(){
         return dmg;
     }
-    
+    public boolean parry(){
+        int roll = Dice.d20();
+        return false; 
+        //finish later
+    }
 }

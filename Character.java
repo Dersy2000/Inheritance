@@ -9,16 +9,21 @@ public abstract class Character
 {
     int AC;
     int health;
-    public void attack(Character a, Character d, Weapon w){
+    public Character(int AC, int health){
+     this.AC = AC;
+     this.health = health;
+    }
+    public void attack(Character target){
       int roll = Dice.d20();
-      if(roll >= d.AC){
-           d.health = d.health - w.getDamage();
+      if(roll >= target.AC){
+           target.health = target.health;
+           System.out.println("Your attack hits.");
       }
-      if(roll < d.AC){
+      if(roll < target.AC){
           System.out.println("Your attack misses.");
       }
-      if (roll >= d.AC){
-          System.out.println("Your attack hits.");
-      }
+    }
+    public void takeDamage(int dmg){
+     health -= dmg;   
     }
 }

@@ -7,5 +7,11 @@
  */
 public class InnKeeper extends NPC
 {
-    
+   int AC;
+   int health;
+   Armor clothing;
+   public InnKeeper(int AC, int health){
+       super(10, 15);
+       clothing = new Clothes(8, 2, "Clothes");
+   }
 }

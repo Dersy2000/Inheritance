@@ -9,7 +9,7 @@ public class handXBow extends xBow
 {
     int dmg = Dice.d6();
     String name = "Hand Crossbow";
-    public handXBow(int dmg, String name){
-        super(dmg, name);
+    public handXBow(){
+        super(Dice.d6(), "Hand Crossbow");
     }
 }

@@ -7,6 +7,7 @@
  */
 public class Griffin extends Beast
 {
-    int health = 50;
-    int AC = 1;
+    public Griffin(){
+        super(1, 50);
+    }
 }
