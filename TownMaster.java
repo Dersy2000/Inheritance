@@ -12,6 +12,6 @@ public class TownMaster extends NPC
    Armor clothing;
    public TownMaster(int AC, int health){
        super(10, 15);
-       clothing = new Clothes(8, 2, "Clothes");
+       clothing = new Clothes();
    }
 }

@@ -16,16 +16,14 @@ public abstract class Weapon extends Item implements WeaponInterface
         int attack = 0;
         return attack;
     }
-    public boolean parry(){
-        boolean parry = true;
-        return parry; 
-    }
     public int getDamage(){
         return dmg;
     }
     public boolean parry(){
         int roll = Dice.d20();
-        return false; 
+        //if(){
+           return true;
+        //}
         //finish later
     }
 }

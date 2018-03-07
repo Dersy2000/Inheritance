@@ -8,6 +8,9 @@
 import java.lang.Math;
 public abstract class Dice
 {
+    public static int d3(){
+        return (int)(Math.random() * 3 +1);
+    }
     public static int d4(){
         return (int)(Math.random() * 4 +1);
     }

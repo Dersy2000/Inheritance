@@ -7,13 +7,16 @@
  */
 public class SteelSword extends Melee implements OneHanded, TwoHanded
 {
-    
-    //boolean twoHanded;
-    //boolean isTwoHanded(){
-    //   return twoHanded; 
-    //}
-    int dmg = Dice.d10();
-    String name = "Steel Sword";
+    boolean twoHanded = false;
+    public void toggleTwoHanded(){
+        if(!twoHanded){
+            twoHanded = true;
+            setDamage(Dice.d12());
+        }else{
+            setDamage(Dice.d10());
+            twoHanded = false;
+        }
+    }
     public SteelSword(){
         super(Dice.d10(), "Steel Sword");
     }

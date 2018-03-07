@@ -13,7 +13,7 @@ public abstract class Character
      this.AC = AC;
      this.health = health;
     }
-    public void attack(Character target){
+    public int attack(Character target){
       int roll = Dice.d20();
       if(roll >= target.AC){
            target.health = target.health;
@@ -22,8 +22,12 @@ public abstract class Character
       if(roll < target.AC){
           System.out.println("Your attack misses.");
       }
+      return roll;
     }
     public void takeDamage(int dmg){
-     health -= dmg;   
+        health -= dmg;   
+    }
+    public void healDamage(int heal){
+        health += heal;
     }
 }

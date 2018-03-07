@@ -7,5 +7,7 @@
  */
 public class Wolf extends Beast
 {
-    
+    public Wolf(){
+        super(5, 8);
+    }
 }

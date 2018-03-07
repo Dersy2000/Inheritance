@@ -7,5 +7,7 @@
  */
 public class HealthPotion extends Potions
 {
-   
+   public void heal(Character target){
+       target.healDamage(Dice.d4() + 4);
+   }
 }

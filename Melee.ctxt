@@ -7,4 +7,6 @@ comment2.params=
 comment2.target=Oil\ getOil()
 comment3.params=dmg\ name
 comment3.target=Melee(int,\ java.lang.String)
-numComments=4
+comment4.params=damage
+comment4.target=void\ setDamage(int)
+numComments=5

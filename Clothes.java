@@ -7,10 +7,7 @@
  */
 public class Clothes extends lightArmour
 {
-   int AC = 8;
-   int weight = 2;
-   String Name = "Clothes";
-   public Clothes(int AC, int weight, String Name){
-       super(AC, weight, Name);
+   public Clothes(){
+       super(8, 2, "Clothes");
    }
 }

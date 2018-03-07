@@ -13,9 +13,9 @@ public class Bartender extends NPC
    public Bartender(){
        super(8, 15);
        weapon = new Dagger();
-       clothing = new Clothes(8, 2, "Clothes");
+       clothing = new Clothes();
    }
-   public void attack(Character d){
+   public int attack(Character d){
       int roll = Dice.d20();
       if(roll >= d.AC){
            d.takeDamage(weapon.attack());
@@ -24,5 +24,6 @@ public class Bartender extends NPC
       if(roll < d.AC){
           System.out.println("Your attack misses.");
       }
+      return roll;
     }
 }

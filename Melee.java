@@ -17,4 +17,7 @@ public abstract class Melee extends Weapon
     public Melee(int dmg, String name){
         super(dmg, name);
     }
+    public void setDamage(int damage){
+        this.dmg = damage;
+    }
 }

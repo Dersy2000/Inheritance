@@ -7,10 +7,7 @@
  */
 public class StuddedLeather extends lightArmour
 {
-    int AC = 13;
-    int weight = 7;
-    String Name = "Studded Leather";
-    public StuddedLeather(int AC, int weight, String Name){
-        super(AC, weight, Name);
+    public StuddedLeather(){
+        super(13, 7, "Studded Leather");
     }
 }

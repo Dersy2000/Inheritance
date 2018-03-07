@@ -7,5 +7,7 @@
  */
 public class NightWraith extends Wraith
 {
-    
+    public NightWraith(){
+        super(15, 35);
+    }
 }
